@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightcyan;
+      color:black;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: black;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    header p {
+      margin-top: 20px;
+      color: blueviolet;
+      font-size: 1em;
+    }
+
+    section {
+      background-color: #fff;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 40px 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    section h2 {
+      color: blue;
+      border-bottom: 4px solid #000;
+      display: inline-block;
+      margin-bottom: 25px;
+      padding-bottom: 5px;
+      font-size: 1.4em;
+    }
+
+    .about-img {
+      display: block;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px auto;
+      border: 3px solid #000;
+    }
+
+    section p {
+      text-align: justify;
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      background: lightskyblue;
+      border-radius: 8px;
+      padding: 10px 15px;
+      margin: 8px 0;
+      transition: background 0.3s;
+    }
+
+    ul li:hover {
+      background: lightgoldenrodyellow;
+    }
+
+    .project, .achievement {
+      background-color: lightpink;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+
+    .project:hover, .achievement:hover {
+      background-color: lightgreen;
+    }
+
+    .project h3, .achievement h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 20px 10px;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+
+    /* Responsive Fixes */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      section {
+        padding: 25px 15px;
+      }
+
+      section h2 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Hi, I'm <span style="color:#fff;">Chahat Sharma</span></h1>
+    <p>Welcome to My Cool and Amazing Portfolio!</p>
+  </header>
+
+  <section id="about">
+    <img src="Hare Krishna.jpeg" alt="Profile Picture" class="about-img">
+    <h2>Now some brief Introduction about me</h2>
+    <p>Hello! I am Chahat Sharma. Currently, I'm learning web development, coding skills and mathematical tools. I am Undergraduate first year student of B.Tech in CSE. This is my first portfolio website! 
+       I enjoy creating simple, clean, and creative web designs using HTML and CSS. I also enjoy editing videos and solving maths problems because of the amount of intellect they involve. I like knowing more about new things and reading about them.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>I know C programming.</li>
+      <li>I know HTML and CSS.</li>
+      <li>I also have good communication skills.</li>
+      <li>I am good at adapting to new changes.</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies & Interests</h2>
+    <ul>
+      <li>My favourite hobby is Singing.</li>
+      <li>I like reading a lot.</li>
+      <li>I like playing Badminton.</li>
+      <li>I like doing art and craft activities in my free time. </ul>
+      <p>I like learning and reading about new technologies and things.</p>
+  </section>
+
+  <section id="achievements">
+    <h2>My Achievements till now</h2>
+    <div class="achievement">
+      <h3>Achievement 1</h3>
+      <p>I have won many gold and silver medals in various olympiads like IMO, IEO, NSO.</p>
+    </div>
+    <div class="achievement">
+      <h3>Achievement 2</h3>
+      <p>I have been the "STUDENT OF THE YEAR" in "ABACUS N BRAIN" dictation competition. And I have completed the entire abacus syllabus till Vedic Maths 10.</p>
+      <p>These achievements are not that appreciable. I want to achieve something even bigger in my life and set an example.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Future Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Currently this is only a idea which I want to convert into a reality. I want to build an application for students' in which they could submit their PDF's and ask for a concise overview and if they want then they can ask that app to quiz them on the basis of that PDF and they could also ask the application for answers if they have any doubt regarding anything in the PDF.
+        Please feel free to contact me via Email if you want to collaborate on this project and if you have any idea regarding this project.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>In our college all the Air Conditioners are turned on even if there is one person sitting in the classroom. So I want to make such a implementation which turns on only the required number of AC's as per the head count. Again please feel free to contact if you have any idea regarding this project.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="chahat.s25@iiits.in">chahat.s25@iiits.in</a></p>
+    <p>GitHub: <a href="https://github.com/ChahatSharma221107" target="_blank">https://github.com/ChahatSharma221107</a></p>
+  </section>
+
+  <footer>
+    <p>Git & GitHub Bootcamp • GDG x IOTA </p>
+  </footer>
+</body>
+</html>
